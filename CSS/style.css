@@ -1,3 +1,49 @@
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem !important;
+}
 
+.h-column {
+  height: 13cm !important;
+}
+
+.mt-1rem {
+  margin-top: 1rem !important;
+}
+
+.mt-2rem {
+  margin-top: 2rem !important;
+}
+
+.mb-2rem {
+  margin-bottom: 2rem !important;
+}
+
+.total-user {
+  width: 15rem !important;
+  height: 8rem !important;
+  margin: auto !important;
+  margin-top: 2rem !important;
+}
+
+#show-img {
+  width: 15rem !important;
+  height: 10rem !important;
+  margin: auto !important;
+  margin-top: 2rem !important;
+}
+
+#butoons-game {
+  display: flex;
+  flex-direction: column !important;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  margin-top: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */

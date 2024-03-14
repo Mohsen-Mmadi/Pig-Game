@@ -15,35 +15,47 @@
   <body>
     <div class="container">
       <div class="row">
+        <div class="bg-warning" id="butoons-game">
+          <button type="button" class="btn btn-danger d-block" id="btn-start">
+            Start Game
+          </button>
+          <button type="button" class="btn btn-dark mt-1rem">Dice</button>
+          <div class="rounded bg-body text-center" id="show-img">
+            <img src="../image/1.jpg" alt="" class="d-none" />
+            <img src="../image/2.jpg" alt="" class="d-none" />
+            <img src="../image/3.jpg" alt="" class="d-none" />
+            <img src="../image/4.jpg" alt="" class="d-none" />
+            <img src="../image/5.jpg" alt="" class="d-none" />
+            <img src="../image/6.jpg" alt="" class="d-none" />
+          </div>
+          <button
+            type="button"
+            class="btn bg-primary mt-2rem mb-2rem"
+            id="btn-hold"
+          >
+            Hold
+          </button>
+        </div>
         <div class="col-6 bg-success h-column">
-            
-            <div class="m-5 rounded bg-body total-user text-center ">
-                <h3>Result User1</h3>
-                <span class="h2 fw-bold " id="result-number1"></span>
-            </div>
-            <div class="m-5 rounded bg-body total-user text-center ">
-                <h3>temporary User1</h3>
-                <span class="h2 fw-bold " id="temporary-number1"></span>
-            </div>
+          <div class="m-5 rounded bg-body total-user text-center">
+            <h3>Result User1</h3>
+            <span class="h2 fw-bold" id="result-number1"></span>
+          </div>
+          <div class="m-5 rounded bg-body total-user text-center">
+            <h3>temporary User1</h3>
+            <span class="h2 fw-bold" id="temporary-number1"></span>
+          </div>
         </div>
-        
-        <div class="col-6 bg-info h-column bb">
-            <div class="m-5 rounded bg-body total-user text-center ">
-                <h3 >Result User2</h3>
-                <span class="h2 fw-bold  " id="result-number2"></span>
-            </div>
-            <div class="m-5 rounded bg-body total-user text-center ">
-                <h3>temporary User2</h3>
-                <span class="h2 fw-bold " id="temporary-number2"></span>
-            </div>
-        </div>
-        <div class="col-12 ">
-            
-        </div>
-        <div class="col-12 bg-secondary-subtle ">
-            <button type="button" class="btn btn-danger " id="btn-start">Start Game</button>
-            <button type="button" class="btn bg-primary " id="btn-hold">Hold</button>
 
+        <div class="col-6 bg-info h-column bb">
+          <div class="m-5 rounded bg-body total-user text-center">
+            <h3>Result User2</h3>
+            <span class="h2 fw-bold" id="result-number2">122</span>
+          </div>
+          <div class="m-5 rounded bg-body total-user text-center">
+            <h3>temporary User2</h3>
+            <span class="h2 fw-bold" id="temporary-number2">10</span>
+          </div>
         </div>
       </div>
     </div>

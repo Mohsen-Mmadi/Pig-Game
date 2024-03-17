@@ -21,6 +21,10 @@ span {
   margin-bottom: 2rem !important;
 }
 
+.bg-active {
+  background-color: darkgreen;
+}
+
 .total-user {
   width: 15rem !important;
   height: 8rem !important;
